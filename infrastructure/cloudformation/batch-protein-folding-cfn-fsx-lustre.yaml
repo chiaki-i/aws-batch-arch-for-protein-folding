@@ -75,7 +75,7 @@ Resources:
       BatchImportMetaDataOnCreate: True
       DataRepositoryPath: !Sub s3://${S3BucketName}/fsx/
       FileSystemId: !Ref FSX
-      FileSystemPath: /fsx
+      FileSystemPath: /
       S3: 
         AutoExportPolicy: 
           Events:
